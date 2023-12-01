@@ -1,5 +1,12 @@
 # 🦙 Python Bindings for [`llama.cpp`](https://github.com/ggerganov/llama.cpp)
 
+## What is this fork? 
+This fork adds optimizations for Pascal GPUs such as the Tesla P40. 
+Specifically MMQ support from upstream llama.cpp 
+
+
+
+
 [![Documentation Status](https://readthedocs.org/projects/llama-cpp-python/badge/?version=latest)](https://llama-cpp-python.readthedocs.io/en/latest/?badge=latest)
 [![Tests](https://github.com/abetlen/llama-cpp-python/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/abetlen/llama-cpp-python/actions/workflows/test.yaml)
 [![PyPI](https://img.shields.io/pypi/v/llama-cpp-python)](https://pypi.org/project/llama-cpp-python/)
