@@ -1,10 +1,29 @@
-# 🦙 Python Bindings for [`llama.cpp`](https://github.com/ggerganov/llama.cpp)
+#  [Pascal GPU] Python Bindings for 🦙 [`llama.cpp`](https://github.com/ggerganov/llama.cpp)
 
 ## What is this fork? 
 This fork adds optimizations for Pascal GPUs such as the Tesla P40. 
-Specifically MMQ support from upstream llama.cpp 
+Specifically MMQ support which boosts performance by ~2x.
+
+#### Installation
+Clone the repo!
+```
+git clone https://github.com/johnsoupir/llama-cpp-python-pascal.git
+cd llama-cpp-python-pascal
+```
 
 
+Use the handy script to install. If there was an existing installation, it will automatically be replaced.
+```
+./installForPascal.sh
+```
+
+An example python script with GPU acceleration is included.
+Remember to change the model path to your own.
+```
+pyhton3 gpu_example.py
+```
+
+##### Original README:
 
 
 [![Documentation Status](https://readthedocs.org/projects/llama-cpp-python/badge/?version=latest)](https://llama-cpp-python.readthedocs.io/en/latest/?badge=latest)
