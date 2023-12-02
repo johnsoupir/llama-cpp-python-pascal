@@ -7,7 +7,7 @@ Specifically MMQ support which boosts performance by ~2x.
 #### Installation
 Clone the repo!
 ```
-git clone https://github.com/johnsoupir/llama-cpp-python-pascal.git
+git clone --recurse-submodules https://github.com/johnsoupir/llama-cpp-python-pascal.git
 cd llama-cpp-python-pascal
 ```
 
